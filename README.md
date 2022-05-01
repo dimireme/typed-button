@@ -4,7 +4,9 @@
 [![codecov](https://codecov.io/gh/dimireme/typed-button/branch/main/graph/badge.svg)](https://codecov.io/gh/dimireme/typed-button)
 ![License](https://img.shields.io/github/license/dimireme/typed-button?)
 
-<a href="https://dimireme.github.io/typed-button/" target="_blank">Preview on github pages &#xe164;</a>
+<a href="https://dimireme.github.io/typed-button/" target="_blank">Preview on github pages</a>
+
+## Button component
 
 ```jsx
 import React from 'react';
@@ -27,3 +29,23 @@ export const Button = <T extends keyof JSX.IntrinsicElements = 'button'>({
   });
 
 ```
+
+## Usage
+
+#### Default
+
+```jsx
+<Button form="my-form">Submit</Button>
+```
+
+IntelliSense attributes specific for `<button>` tag. Prevent others attributes.
+
+#### Custom tag
+
+```jsx
+<Button as="a" href="#" target="_blank">
+  Read more
+</Button>
+```
+
+IntelliSense attributes specific for `<a>` tag. Prevent others attributes.

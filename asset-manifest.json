@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/typed-button/static/css/main.ae60c7d1.css",
+    "main.js": "/typed-button/static/js/main.d619ee61.js",
+    "index.html": "/typed-button/index.html",
+    "main.ae60c7d1.css.map": "/typed-button/static/css/main.ae60c7d1.css.map",
+    "main.d619ee61.js.map": "/typed-button/static/js/main.d619ee61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae60c7d1.css",
+    "static/js/main.d619ee61.js"
+  ]
+}

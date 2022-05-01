@@ -1,6 +1,6 @@
 # Typed Button
 
-![CI/CD](https://github.com/dimireme/typed-button/workflows/deploy-to-github-pages/badge.svg)
+![CI/CD](https://github.com/dimireme/typed-button/workflows/deploy/badge.svg)
 [![codecov](https://codecov.io/gh/dimireme/typed-button/branch/main/graph/badge.svg)](https://codecov.io/gh/dimireme/typed-button)
 ![License](https://img.shields.io/github/license/dimireme/typed-button)
 

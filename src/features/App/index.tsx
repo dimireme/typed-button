@@ -4,18 +4,27 @@ import styles from './styles.module.scss';
 export const App = () => {
   return (
     <div className={styles.app}>
-      <Button>Submit</Button>
-      <Button variant="default">Submit</Button>
-      <Button variant="danger">Submit</Button>
+      <Button>Button</Button>
+      <Button variant="default">Button</Button>
+      <Button variant="danger">Button</Button>
       <hr />
       <Button variant="danger" as="h1">
-        Submit
+        As H1
       </Button>
-      <Button form="my-form">Submit</Button>
+      <Button form="my-form">As Button with specific attrs</Button>
       <Button variant="danger" as="a" href="asd" target="_blank">
-        Submit
+        As Anchor with specific attrs
       </Button>
-      <Button type="button">Submit</Button>
+      <hr />
+      <Button type="submit">Submit Button</Button>
+      <Button
+        as="textarea"
+        rows={8}
+        value="As Textarea ignore Children"
+        variant="danger"
+      >
+        Some child content
+      </Button>
     </div>
   );
 };

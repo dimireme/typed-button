@@ -6,14 +6,13 @@ type Props<T extends keyof JSX.IntrinsicElements> = {
   as?: T;
 } & JSX.IntrinsicElements[T];
 
-export function Button<T extends keyof JSX.IntrinsicElements = 'button'>({
+export const Button = <T extends keyof JSX.IntrinsicElements = 'button'>({
   variant = 'default',
   as,
   ...rest
-}: Props<T>) {
-  return React.createElement(as ?? 'button', {
+}: Props<T>) =>
+  React.createElement(as ?? 'button', {
     type: 'button',
     className: `${styles.button} ${styles[variant]}`,
     ...rest,
   });
-}

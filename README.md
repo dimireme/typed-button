@@ -2,7 +2,7 @@
 
 ![CI/CD](https://github.com/dimireme/typed-button/workflows/deploy/badge.svg)
 [![codecov](https://codecov.io/gh/dimireme/typed-button/branch/main/graph/badge.svg)](https://codecov.io/gh/dimireme/typed-button)
-![License](https://img.shields.io/github/license/dimireme/typed-button)
+![License](https://img.shields.io/github/license/dimireme/typed-button?)
 
 <a href="https://dimireme.github.io/typed-button/" target="_blank">Preview on github pages &#xe164;</a>
 
